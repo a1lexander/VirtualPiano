@@ -1,0 +1,51 @@
+body {
+    background-color: darkgreen;
+}
+.white-keys {
+    background-color: white;
+    width: max-content;
+    margin: 20% auto;
+}
+.black-keys {
+    width: max-content;
+    position: relative;
+    bottom: 385px;
+    left: -20px;
+    margin: 20% auto;
+}
+.white-keys kbd {
+    display: inline-block;
+    border: 2px solid gray;
+    padding: 80px 10px 20px 10px;
+    margin-left: -.34em;
+}
+.black-keys kbd {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border: 2px solid gray;
+    padding: 40px 7px 10px;
+
+}
+.black-keys .e {
+    position: relative;
+    left: 3px;
+}
+.black-keys .t {
+    position: relative;
+    left: 37px;
+}
+.black-keys .y {
+    position: relative;
+    left: 39px;
+}
+.black-keys .u {
+    position: relative;
+    left: 40px;
+}
+div kbd:first-child {
+    margin-left: 0;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
